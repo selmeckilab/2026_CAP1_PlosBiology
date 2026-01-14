@@ -20,7 +20,7 @@ set -o pipefail
 
 line=${SLURM_ARRAY_TASK_ID}
 sample_file=CAP1Aug_paths.txt
-# make a global scratch directory with your x500 id, then a relevant subdirectory
+# sample paths
 tempdir=/scratch.global/zxin/AnnaSelmecki240823/  # with trailing slash
 species=Calbican  # no spaces in name
 instrument=NextSeq
